@@ -1,0 +1,81 @@
+# IDEA specific
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Maven specific
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle specific
+build/
+.gradle
+gradle.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+.metadata/
+
+# Temp files
+*.log
+*.swp
+*.bak
+*.tmp
+*.temp
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Other
+logs/
+*.jar
+*.war
+*.ear
+*.class
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Config files
+application.properties
+application.yml
+bootstrap.properties
+bootstrap.yml
+
+# Test reports
+test-results/
+test-reports/
+
+# Documentation
+docs/
+
+# Dependencies
+node_modules/
+bower_components/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Miscellaneous
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.vim
+*~
+
+# Custom directories/files
+custom-dir/
+custom-file.txt
